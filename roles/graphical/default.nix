@@ -1,6 +1,10 @@
 { config, pkgs, ... }:
 
 {
+  imports = [
+    ../../programs/kitty
+  ];
+
   home.packages = with pkgs; [
     cmst
     lxqt.lximage-qt
@@ -60,12 +64,6 @@
     BROWSER = "qutebrowser";
     QT_QPA_PLATFORMTHEME = "qt5ct";
     TERMINAL = "kitty";
-  };
-
-  xdg.configFile = {
-    "kitty/kitty.conf".source = ../../dotfiles/kitty/kitty.conf;
-    "kitty/colorschemes/papercolor-dark.conf".source = ../../dotfiles/kitty/colorschemes/papercolor-dark.conf;
-    "kitty/colorschemes/papercolor-light.conf".source = ../../dotfiles/kitty/colorschemes/papercolor-light.conf;
   };
 
   xdg.dataFile."icons/default/index.theme".text = ''

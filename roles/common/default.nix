@@ -1,6 +1,10 @@
 { config, pkgs, ... }:
 
 {
+  imports = [
+    ../../programs/neovim
+  ];
+
   home = {
     username = "choreutes";
     homeDirectory = "/home/choreutes";
@@ -41,20 +45,6 @@
       highlightBaseName = true;
       showProgramPath = false;
       treeView = true;
-    };
-
-    neovim = {
-      enable = true;
-
-      extraConfig = builtins.readFile ../../dotfiles/neovim/init.vim;
-
-      plugins = with pkgs.vimPlugins; [
-        awesome-vim-colorschemes
-        vim-airline
-        vim-airline-themes
-        vim-colorschemes
-        vim-nix
-      ];
     };
 
     zsh = {

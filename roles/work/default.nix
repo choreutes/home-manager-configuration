@@ -1,9 +1,12 @@
 { config, pkgs, ... }:
 
 {
+  imports = [
+    ../../programs/papis
+  ];
+
   home.packages = with pkgs; [
     openconnect
-    papis
     pdftk
     qpdf
     subversion
@@ -38,9 +41,5 @@
       collection-mathscience
       collection-pictures;
     };
-  };
-
-  xdg.configFile = {
-    "papis/config".source = ../../dotfiles/papis/config;
   };
 }
