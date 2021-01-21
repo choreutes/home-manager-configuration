@@ -43,6 +43,11 @@
 
       hideUserlandThreads = true;
       highlightBaseName = true;
+
+      meters = {
+        left = [ "AllCPUs2" "Memory" "Swap" ];
+      };
+
       showProgramPath = false;
       treeView = true;
     };
