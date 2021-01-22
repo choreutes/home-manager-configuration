@@ -11,6 +11,7 @@
       vim-airline
       vim-airline-themes
       vim-colorschemes
+      vim-ledger
       vim-nix
     ];
   };
