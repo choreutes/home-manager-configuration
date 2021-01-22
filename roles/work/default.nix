@@ -42,4 +42,8 @@
       collection-pictures;
     };
   };
+
+  programs.zsh.shellAliases = {
+    "svn" = "svn --config-dir ${config.xdg.configHome}/subversion";
+  };
 }

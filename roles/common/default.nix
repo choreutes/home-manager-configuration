@@ -72,9 +72,6 @@
       };
 
       shellAliases = {
-        "manual" = "papis --lib manuals";
-        "paper" = "papis --lib papers";
-        "svn" = "svn --config-dir ${config.xdg.configHome}/subversion";
         "tree" = "tree -C";
       };
     };
