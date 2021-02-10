@@ -10,6 +10,7 @@
     homeDirectory = "/home/choreutes";
 
     packages = with pkgs; [
+      parallel
       ranger
     ];
 
