@@ -10,8 +10,11 @@
     homeDirectory = "/home/choreutes";
 
     packages = with pkgs; [
+      khal
+      khard
       parallel
       ranger
+      vdirsyncer
     ];
 
     sessionVariables = {
