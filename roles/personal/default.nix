@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ../../programs/beets
     ../../programs/ledger
   ];
 

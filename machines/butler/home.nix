@@ -26,10 +26,6 @@
   };
 
   programs = {
-    beets = {
-      enable = true;
-    };
-
     # zsh = {
     #   enable = true;
     #   enableAutosuggestions = true;
@@ -49,6 +45,4 @@
       musicDirectory = "${config.home.homeDirectory}/Musik";
     };
   };
-
-  xdg.configFile."beets/config.yaml".source = ~/dotfiles/beets/.config/beets/config.yaml;
 }
