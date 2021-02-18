@@ -2,7 +2,9 @@
 
 {
   imports = [
+    ../../programs/khal
     ../../programs/neovim
+    ../../programs/vdirsyncer
   ];
 
   home = {
@@ -10,11 +12,9 @@
     homeDirectory = "/home/choreutes";
 
     packages = with pkgs; [
-      khal
       khard
       parallel
       ranger
-      vdirsyncer
     ];
 
     sessionVariables = {
