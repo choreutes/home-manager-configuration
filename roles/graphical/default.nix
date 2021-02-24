@@ -62,7 +62,6 @@
 
   pam.sessionVariables = {
     BROWSER = "qutebrowser";
-    QT_QPA_PLATFORMTHEME = "qt5ct";
     TERMINAL = "kitty";
   };
 
