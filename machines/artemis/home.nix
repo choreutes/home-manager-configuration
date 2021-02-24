@@ -4,6 +4,7 @@
   imports = [
     ../../roles/common
     ../../roles/graphical-wayland
+    ../../roles/office
     ../../roles/work
   ];
 

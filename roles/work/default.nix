@@ -2,7 +2,6 @@
 
 {
   imports = [
-    ../../programs/latex
     ../../programs/papis
   ];
 

@@ -5,6 +5,7 @@
     ../../roles/common
     ../../roles/graphical
     ../../roles/music
+    ../../roles/office
     ../../roles/personal
   ];
 
