@@ -23,6 +23,8 @@
       collection-latexrecommended
       collection-luatex
 
+      collection-plaingeneric
+
       collection-mathscience
       collection-pictures;
     };
