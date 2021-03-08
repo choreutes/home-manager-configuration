@@ -13,7 +13,10 @@
     mpv
     qpdfview
     thunderbird
+    vivaldi
   ];
+
+  nixpkgs.config.allowUnfree = true;
 
   programs = {
     firefox = {
