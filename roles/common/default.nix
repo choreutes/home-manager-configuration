@@ -13,6 +13,7 @@
 
     packages = with pkgs; [
       khard
+      mtpfs
       parallel
       ranger
     ];
