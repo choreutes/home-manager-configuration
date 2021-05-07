@@ -10,6 +10,7 @@
     pdftk
     qpdf
     subversion
+    zoom-us
   ];
 
   pam.sessionVariables = {
