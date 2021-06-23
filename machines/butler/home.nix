@@ -3,6 +3,7 @@
 {
   imports = [
     ../../roles/common
+    ../../roles/gaming
     ../../roles/graphical
     ../../roles/music
     ../../roles/office
