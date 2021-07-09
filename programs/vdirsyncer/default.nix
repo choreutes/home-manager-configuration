@@ -1,8 +1,10 @@
 { config, pkgs, ... }:
 
-{
+let
+  unstable = import <nixos-unstable> { config = config.nixpkgs.config; };
+in {
   home.packages = with pkgs; [
-    vdirsyncer
+    unstable.vdirsyncer
   ];
 
   xdg.configFile."vdirsyncer/config".text = ''
@@ -24,6 +26,7 @@
     a = "hera_calendars"
     b = "local_calendars"
     collections = [ "feiertage", "ferien", "mathematik", "physik", "privates", "promotion-ag-fischlin", "tc-blau-gold-langen", "tsz-blau-gold-casino-darmstadt" ]
+    conflict_resolution = [ "command", "nvim", "-d" ]
     metadata = [ "color", "displayname" ]
   '';
 }
