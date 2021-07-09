@@ -10,17 +10,19 @@
     ../../roles/personal
   ];
 
-  home.stateVersion = "20.09";
+  home = {
+    packages = with pkgs; [
+      ark
+      gimp
+      k3b
+      mpv
+      okular
+    ];
 
-  home.packages = with pkgs; [
-    ark
-    gimp
-    k3b
-    mpv
-    okular
-  ];
+    sessionVariables = {
+      LEDGER_HOME = "${config.home.homeDirectory}/Vault/Finanzen";
+    };
 
-  pam.sessionVariables = {
-    LEDGER_HOME = "${config.home.homeDirectory}/Vault/Finanzen";
+    stateVersion = "20.09";
   };
 }
