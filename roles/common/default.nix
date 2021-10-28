@@ -20,7 +20,6 @@
 
     sessionVariables = {
       EDITOR = "nvim";
-      GNUPGHOME = "${config.xdg.configHome}/gnupg";
     };
   };
 
