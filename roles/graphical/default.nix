@@ -3,6 +3,7 @@
 {
   imports = [
     ../../programs/kitty
+    ../../services/gnupg
   ];
 
   home.packages = with pkgs; [
