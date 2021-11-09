@@ -26,7 +26,9 @@
       collection-plaingeneric
 
       collection-mathscience
-      collection-pictures;
+      collection-pictures
+
+      tuda-ci;
     };
   };
 }
