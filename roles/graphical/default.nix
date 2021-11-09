@@ -8,6 +8,10 @@
 
   home.packages = with pkgs; [
     cmst
+    kdeconnect-kde
+    kontact
+    kmail
+    kmail-account-wizard
     lxqt.lximage-qt
     lxqt.pavucontrol-qt
     lxqt.pcmanfm-qt
