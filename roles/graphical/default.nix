@@ -11,6 +11,7 @@
     kdeconnect
     kontact
     kmail
+    libwacom
     lxqt.lximage-qt
     lxqt.pavucontrol-qt
     lxqt.pcmanfm-qt
@@ -18,6 +19,7 @@
     qpdfview
     thunderbird
     vivaldi
+    wacomtablet
   ];
 
   nixpkgs.config.allowUnfree = true;

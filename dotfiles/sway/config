@@ -13,6 +13,14 @@ input type:touchpad {
 	tap enabled
 }
 
+input 11551:21068:Wacom_Co.,Ltd._Pen_and_multitouch_sensor {
+	map_to_output DP-2
+}
+
+input 11551:21068:Wacom_Co.,Ltd._Pen_and_multitouch_sensor_Stylus {
+	map_to_output DP-2
+}
+
 output eDP-1 resolution 1920x1080 position 0,0
 
 output * bg ~/Wallpaper/Nixos/Gray\ Nix\ Store\ \(2560x1440\).png fill
