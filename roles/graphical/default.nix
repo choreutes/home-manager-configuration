@@ -18,7 +18,7 @@
     mpv
     qpdfview
     thunderbird
-    vivaldi
+    #vivaldi
     wacomtablet
   ];
 
