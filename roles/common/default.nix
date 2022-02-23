@@ -16,6 +16,7 @@
       mtpfs
       parallel
       ranger
+      smartmontools
     ];
 
     sessionVariables = {
