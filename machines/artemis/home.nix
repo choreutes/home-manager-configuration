@@ -3,7 +3,7 @@
 {
   imports = [
     ../../roles/common
-    ../../roles/graphical-wayland
+    ../../roles/graphical
     ../../roles/office
     ../../roles/personal
     ../../roles/work

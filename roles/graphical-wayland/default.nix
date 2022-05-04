@@ -5,6 +5,10 @@
     ../graphical
   ];
 
+  home.packages = with pkgs; [
+    qt5ct
+  ];
+
   pam.sessionVariables = {
     QT_QPA_PLATFORMTHEME = "qt5ct";
   };
@@ -16,6 +20,13 @@
       "sway/config".source = ../../dotfiles/sway/config;
       "waybar/config".source = ../../dotfiles/waybar/config;
       "waybar/style.css".source = ../../dotfiles/waybar/style.css;
+    };
+
+    dataFile = {
+      "icons/default/index.theme".text = ''
+        [Icon Theme]
+        Inherits = breeze_cursors
+      '';
     };
   };
 }
