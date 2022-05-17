@@ -14,7 +14,7 @@
       LEDGER_HOME = "${config.home.homeDirectory}/Finanzen";
     };
 
-    stateVersion = "20.03";
+    stateVersion = "21.11";
   };
 
 }
