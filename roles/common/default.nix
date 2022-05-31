@@ -66,7 +66,7 @@
 
         shadow_other_users = false;
 
-        show_cpu_frequency = false;
+        show_cpu_frequency = true;
         show_cpu_usage = false;
 
         show_program_path = false;
