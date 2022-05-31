@@ -6,22 +6,29 @@
     ../../services/gnupg
   ];
 
-  home.packages = with pkgs; [
-    cmst
-    kcalc
-    kdeconnect
-    kontact
-    kmail
-    libwacom
-    lxqt.lximage-qt
-    lxqt.pavucontrol-qt
-    lxqt.pcmanfm-qt
-    mpv
-    qpdfview
-    thunderbird
-    #vivaldi
-    wacomtablet
-  ];
+  home = {
+    packages = with pkgs; [
+      cmst
+      kcalc
+      kdeconnect
+      kontact
+      kmail
+      libwacom
+      lxqt.lximage-qt
+      lxqt.pavucontrol-qt
+      lxqt.pcmanfm-qt
+      mpv
+      qpdfview
+      thunderbird
+      #vivaldi
+      wacomtablet
+    ];
+
+    sessionVariables = {
+      BROWSER = "qutebrowser";
+      TERMINAL = "kitty";
+    };
+  };
 
   nixpkgs.config.allowUnfree = true;
 
@@ -68,11 +75,6 @@
     nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
       inherit pkgs;
     };
-  };
-
-  pam.sessionVariables = {
-    BROWSER = "qutebrowser";
-    TERMINAL = "kitty";
   };
 
   services.syncthing.enable = true;

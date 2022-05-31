@@ -5,17 +5,19 @@
     ../../programs/papis
   ];
 
-  home.packages = with pkgs; [
-    openconnect
-    pdftk
-    qpdf
-    subversion
-    teams
-    zoom-us
-  ];
+  home = {
+    packages = with pkgs; [
+      openconnect
+      pdftk
+      qpdf
+      subversion
+      teams
+      zoom-us
+    ];
 
-  pam.sessionVariables = {
-    SUBVERSION_HOME = "${config.xdg.configHome}/subversion";
+    sessionVariables = {
+      SUBVERSION_HOME = "${config.xdg.configHome}/subversion";
+    };
   };
 
   programs.zsh.shellAliases = {

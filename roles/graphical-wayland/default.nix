@@ -5,12 +5,14 @@
     ../graphical
   ];
 
-  home.packages = with pkgs; [
-    qt5ct
-  ];
+  home = {
+    packages = with pkgs; [
+      qt5ct
+    ];
 
-  pam.sessionVariables = {
-    QT_QPA_PLATFORMTHEME = "qt5ct";
+    sessionVariables = {
+      QT_QPA_PLATFORMTHEME = "qt5ct";
+    };
   };
 
   programs.firefox.package = pkgs.firefox-wayland;
