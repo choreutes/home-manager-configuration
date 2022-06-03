@@ -4,7 +4,7 @@
   imports = [
     ../../roles/common
     ../../roles/gaming
-    ../../roles/graphical
+    ../../roles/graphical-kde
     ../../roles/music
     ../../roles/office
     ../../roles/personal

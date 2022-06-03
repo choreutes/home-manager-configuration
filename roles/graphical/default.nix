@@ -9,10 +9,6 @@
   home = {
     packages = with pkgs; [
       cmst
-      kcalc
-      kdeconnect
-      kontact
-      kmail
       libwacom
       lxqt.lximage-qt
       lxqt.pavucontrol-qt
@@ -21,7 +17,6 @@
       qpdfview
       thunderbird
       #vivaldi
-      wacomtablet
     ];
 
     sessionVariables = {

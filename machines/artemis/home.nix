@@ -3,7 +3,7 @@
 {
   imports = [
     ../../roles/common
-    ../../roles/graphical
+    ../../roles/graphical-kde
     ../../roles/office
     ../../roles/personal
     ../../roles/work
