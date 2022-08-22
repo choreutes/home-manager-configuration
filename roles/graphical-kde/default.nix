@@ -6,6 +6,7 @@
   ];
 
   home.packages = with pkgs; [
+    ark
     kaddressbook
     kcalc
     kdeconnect
