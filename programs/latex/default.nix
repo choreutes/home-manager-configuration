@@ -28,8 +28,8 @@
       collection-mathscience
       collection-pictures
 
-      tuda-ci;
-      urcls
+      tuda-ci
+      urcls;
     };
   };
 }
