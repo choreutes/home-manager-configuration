@@ -29,6 +29,7 @@
       collection-pictures
 
       tuda-ci;
+      urcls
     };
   };
 }
