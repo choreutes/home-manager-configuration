@@ -13,6 +13,7 @@
     kontact
     korganizer
     kmail
+    plasma-nm
     wacomtablet
   ];
 }
