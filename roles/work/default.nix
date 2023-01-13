@@ -1,10 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  imports = [
-    ../../programs/papis
-  ];
-
   home = {
     packages = with pkgs; [
       openconnect

@@ -3,6 +3,7 @@
 {
   imports = [
     ../../programs/latex
+    ../../programs/papis
   ];
 
   home.packages = with pkgs; [
