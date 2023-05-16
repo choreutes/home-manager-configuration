@@ -106,5 +106,9 @@
     };
   };
 
-  xdg.enable = true;
+  xdg = {
+    enable = true;
+
+    mimeApps.enable = true;
+  };
 }

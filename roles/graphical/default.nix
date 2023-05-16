@@ -20,7 +20,7 @@
     ];
 
     sessionVariables = {
-      BROWSER = "qutebrowser";
+      BROWSER = "firefox";
       TERMINAL = "kitty";
     };
   };
@@ -73,4 +73,18 @@
   };
 
   services.syncthing.enable = true;
+
+  xdg.mimeApps = {
+    associations.added = {
+      "inode/directory" = "org.kde.dolphin.desktop";
+      "text/x-tex" = "nvim.desktop";
+    };
+
+    defaultApplications = {
+      "application/pdf" = "org.kde.okular.desktop qpdfview.desktop";
+      "application/x-yaml" = "nvim.desktop";
+      "inode/directory" = "org.kde.dolphin.desktop";
+      "text/x-tex" = "nvim.desktop";
+    };
+  };
 }
