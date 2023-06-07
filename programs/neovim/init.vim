@@ -8,7 +8,7 @@
 " ----------------
 set nocompatible
 
-set modelines=1
+set modelines=8
 " }}}
 
 "Plugin Settings {{{
