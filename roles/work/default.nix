@@ -7,7 +7,6 @@
       pdftk
       qpdf
       subversion
-      teams
       zoom-us
     ];
 
