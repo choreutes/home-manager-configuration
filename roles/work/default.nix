@@ -8,6 +8,8 @@
       qpdf
       subversion
       zoom-us
+      zulip
+      zulip-term
     ];
 
     sessionVariables = {
