@@ -1,10 +1,8 @@
 { config, pkgs, ... }:
 
-let
-  unstable = import <nixos-unstable> { config = config.nixpkgs.config; };
-in {
+{
   home.packages = with pkgs; [
-    unstable.vdirsyncer
+    vdirsyncer
   ];
 
   xdg.configFile."vdirsyncer/config".text = ''
