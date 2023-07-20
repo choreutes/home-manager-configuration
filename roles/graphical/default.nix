@@ -15,8 +15,6 @@
       lxqt.pcmanfm-qt
       mpv
       qpdfview
-      thunderbird
-      #vivaldi
     ];
 
     sessionVariables = {

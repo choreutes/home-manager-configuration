@@ -7,6 +7,8 @@
     ../../roles/office
     ../../roles/personal
     ../../roles/work
+
+    ../../features/productivity
   ];
 
   home = {
