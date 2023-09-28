@@ -66,11 +66,6 @@
             };
           };
         };
-
-        thunderbird = {
-          enable = true;
-          profiles = [ "choreutes" ];
-        };
       };
     };
 
