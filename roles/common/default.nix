@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ../../programs/gnupg
     ../../programs/khal
     ../../programs/neovim
     ../../programs/vdirsyncer
