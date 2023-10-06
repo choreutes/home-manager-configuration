@@ -99,12 +99,12 @@
         path = "${config.xdg.dataHome}/zsh/zsh_history";
       };
 
-      initExtra = ''
-        prompt_context(){}
-      '';
-
       oh-my-zsh = {
         enable = true;
+
+        extraConfig = ''
+          DEFAULT_USER=choreutes
+          '';
 
         theme = "agnoster";
       };
