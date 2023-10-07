@@ -8,6 +8,8 @@
     ../../roles/music
     ../../roles/office
     ../../roles/personal
+
+    ../../features/productivity
   ];
 
   home = {
