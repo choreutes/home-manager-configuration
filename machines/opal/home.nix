@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ../../roles/common
+    ../../features/common
   ];
 
   home = {

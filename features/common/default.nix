@@ -2,6 +2,8 @@
 
 {
   imports = [
+    ./zsh-config
+
     ../../programs/gnupg
     ../../programs/khal
     ../../programs/neovim
@@ -87,30 +89,6 @@
 
       settings = {
         PASSWORD_STORE_DIR = "${config.xdg.dataHome}/password-store";
-      };
-    };
-
-    zsh = {
-      enable = true;
-
-      dotDir = ".config/zsh";
-
-      history = {
-        path = "${config.xdg.dataHome}/zsh/zsh_history";
-      };
-
-      oh-my-zsh = {
-        enable = true;
-
-        extraConfig = ''
-          DEFAULT_USER=choreutes
-          '';
-
-        theme = "agnoster";
-      };
-
-      shellAliases = {
-        "tree" = "tree -C";
       };
     };
   };

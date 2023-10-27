@@ -2,13 +2,13 @@
 
 {
   imports = [
-    ../../roles/common
     ../../roles/gaming
     ../../roles/graphical-kde
     ../../roles/music
     ../../roles/office
     ../../roles/personal
 
+    ../../features/common
     ../../features/productivity
   ];
 
