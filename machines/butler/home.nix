@@ -21,12 +21,12 @@
       okular
     ];
 
-    programs.yt-dlp.enable = true;
-
     sessionVariables = {
       LEDGER_HOME = "${config.home.homeDirectory}/Vault/Finanzen";
     };
 
     stateVersion = "20.09";
   };
+
+  programs.yt-dlp.enable = true;
 }
