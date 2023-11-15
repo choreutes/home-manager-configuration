@@ -21,6 +21,8 @@
       okular
     ];
 
+    programs.yt-dlp.enable = true;
+
     sessionVariables = {
       LEDGER_HOME = "${config.home.homeDirectory}/Vault/Finanzen";
     };
