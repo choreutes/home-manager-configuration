@@ -14,11 +14,8 @@
 
   home = {
     packages = with pkgs; [
-      ark
       gimp
       k3b
-      mpv
-      okular
     ];
 
     sessionVariables = {
