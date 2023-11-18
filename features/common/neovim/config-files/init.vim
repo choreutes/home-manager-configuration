@@ -16,6 +16,8 @@ set modelines=8
 filetype indent on
 filetype plugin on
 
+let maplocalleader=","
+
 " Airline settings {{{
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'papercolor'
@@ -29,20 +31,7 @@ let g:vimtex_compiler_latexmk = {
 			\ 'backend':'nvim',
 			\ 'continuous':0
 			\ }
-let g:vimtex_view_method = 'general'
-let g:vimtex_view_general_viewer = 'qpdfview'
-let g:vimtex_view_general_options = '--unique @pdf\#src:@tex:@line:@col'
-let g:vimtex_view_general_options_latexmk = '--unique'
-let g:vimtex_quickfix_latexlog = {
-			\ 'overfull' : 0,
-			\ 'underfull' : 0,
-			\ 'unused' : 0,
-			\ 'packages' : { 'default' : 0 }
-			\ }
 
-let g:vimtex_toc_config = {
-			\ 'split_width': 50
-			\ }
 let g:vimtex_indent_on_ampersands = 0
 " }}}
 

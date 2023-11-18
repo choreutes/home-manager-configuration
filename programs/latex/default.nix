@@ -23,10 +23,12 @@
       collection-latexrecommended
       collection-luatex
 
-      collection-plaingeneric
-
       collection-mathscience
       collection-pictures
+
+      collection-plaingeneric
+
+      latexmk
 
       tuda-ci
       urcls;

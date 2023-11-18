@@ -2,11 +2,11 @@
 
 {
   imports = [
+    ./neovim
     ./zsh-config
 
     ../../programs/gnupg
     ../../programs/khal
-    ../../programs/neovim
     ../../programs/vdirsyncer
   ];
 
