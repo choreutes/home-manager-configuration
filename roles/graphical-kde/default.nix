@@ -6,7 +6,6 @@
   ];
 
   home.packages = with pkgs; [
-    ark
     kaddressbook
     kcalc
     kdeconnect
@@ -14,6 +13,7 @@
     korganizer
     kmail
     plasma-nm
+    syncthingtray
     wacomtablet
   ];
 }
