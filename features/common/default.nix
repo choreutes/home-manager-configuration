@@ -6,8 +6,6 @@
     ./zsh-config
 
     ../../programs/gnupg
-    ../../programs/khal
-    ../../programs/vdirsyncer
   ];
 
   home = {
@@ -15,7 +13,6 @@
     homeDirectory = "/home/choreutes";
 
     packages = with pkgs; [
-      khard
       mtpfs
       parallel
       ranger
