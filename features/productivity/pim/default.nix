@@ -4,6 +4,7 @@
   imports = [
     ./calendar.nix
     ./contacts.nix
+    ./taskwarrior.nix
   ];
 
   programs = {
