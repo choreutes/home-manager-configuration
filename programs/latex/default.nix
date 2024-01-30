@@ -10,6 +10,11 @@
       collection-basic
 
       collection-bibtexextra
+      collection-latex
+      collection-latexextra
+      collection-latexrecommended
+      collection-luatex
+      collection-plaingeneric
 
       collection-fontsextra
       collection-fontsrecommended
@@ -18,20 +23,11 @@
       collection-langenglish
       collection-langgerman
 
-      collection-latex
-      collection-latexextra
-      collection-latexrecommended
-      collection-luatex
-
       collection-mathscience
       collection-pictures
+      collection-publishers
 
-      collection-plaingeneric
-
-      latexmk
-
-      tuda-ci
-      urcls;
+      latexmk;
     };
   };
 }
