@@ -8,6 +8,8 @@
       directory = "~/Musik";
       library = "~/.local/share/beets/library.db";
 
+      plugins = "convert";
+
       ui.color = "yes";
 
       import = {
