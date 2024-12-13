@@ -8,7 +8,6 @@
   home.packages = with pkgs; [
     kaddressbook
     kcalc
-    kdeconnect
     kontact
     korganizer
     kmail
@@ -16,4 +15,6 @@
     syncthingtray
     wacomtablet
   ];
+
+  services.kdeconnect.enable = true;
 }

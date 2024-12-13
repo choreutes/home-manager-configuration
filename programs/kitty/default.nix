@@ -14,7 +14,7 @@
       enable_audio_bell = false;
     };
 
-    theme = "PaperColor Dark";
+    themeFile = "PaperColor_dark";
   };
 
   # Old configuration method. Keep around for reference/backup

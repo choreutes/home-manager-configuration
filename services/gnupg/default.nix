@@ -15,8 +15,10 @@
     enable = true;
 
     enableExtraSocket = true;
-
     enableSshSupport = true;
+
+    pinentryPackage = pkgs.pinentry-qt;
+
     sshKeys = [ "178D43591E8A412D0AA5098567E5AEF509BB3C0A" ];
   };
 }
