@@ -4,11 +4,18 @@
   programs.ssh = {
     enable = true;
 
-    extraConfig = ''
-      Host opal.choreutes.de
-        RemoteForward /run/user/1000/gnupg/S.gpg-agent /run/user/1000/gnupg/S.gpg-agent.extra
-        RemoteForward /run/user/1000/gnupg/S.gpg-agent.ssh /run/user/1000/gnupg/S.gpg-agent.ssh
-    '';
+    matchBlocks = {
+      "opal.choreutes.de" = {
+        forwardAgent = true;
+
+        remoteForwards = [
+          {
+            bind.address = "/run/user/1000/gnupg/S.gpg-agent";
+            host.address = "/run/user/1000/gnupg/S.gpg-agent.extra";
+          }
+        ];
+      };
+    };
   };
 
   services.gpg-agent = {
